@@ -18,7 +18,7 @@ export default function Home({ blog }) {
       {blog.map((b) => (
         <div key={b.id} className="list-none w-9/12 m-auto">
           <Link href={`blog/${b.id}`}>
-            <p className="mt-8 bg-gray-200 p-5 rounded duration-300 hover:bg-sky-600">{b.title}</p>
+            <p className="mt-8 bg-gray-200 p-5 rounded duration-300 hover:bg-gray-400">{b.title}</p>
           </Link>
         </div>
       ))}

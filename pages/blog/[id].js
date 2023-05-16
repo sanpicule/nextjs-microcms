@@ -30,7 +30,7 @@ export const getStaticPaths = async () => {
 
 export default function BlogId({ blog }) {
   return (
-    <main className="m-auto w-9/12 p-10 bg-green-400 mt-20">
+    <main className="m-auto w-9/12 p-10 bg-orange-300 mt-20 rounded">
       <h1 className="bg-white p-2">
         タイトル：{blog.title}
       </h1>
